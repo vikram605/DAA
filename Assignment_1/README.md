@@ -5,7 +5,8 @@ the its index
 
 # how to use code
 first it will randomly generate array of size 4x4(it can be changed by changing ROW andCOL in code part) then
-enter the ellement to be found```
+enter the ellement to be found
+```
 #Download project
 git clone https://github.com/vikram605/DAA 
 ```
