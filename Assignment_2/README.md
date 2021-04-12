@@ -105,6 +105,9 @@ T(n) = O (n log2(2) )
 T(n) = O (n)
 The solution of recurrence is O(n) using Master
 Method.
+
+
+
 **Space Complexity**
 
 Since we input a 1-D array of size N, it will
