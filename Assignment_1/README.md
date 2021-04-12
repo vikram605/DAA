@@ -119,6 +119,8 @@ submatrix of size n x n/2 or n/2 x n, and
 another submatrix of size n/2 x n/2.
 Time Complexity : O(n 1.58 )
 
+![Time_1](https://user-images.githubusercontent.com/77439867/114393229-6a51d380-9bb7-11eb-9b8f-fec3095a8ae3.png)
+
 
 **Space Complexity**
 
