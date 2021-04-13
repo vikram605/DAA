@@ -1,5 +1,5 @@
 
-# DAA ASSIGNMNTS 1,2,3
+# DAA ASSIGNMENTS 4,5,6
 Each folder is marked with specific assignment number
 
 # Team Members
