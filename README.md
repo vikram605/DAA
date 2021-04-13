@@ -8,7 +8,7 @@ Each folder is marked with specific assignment number
 | ----------------|:-------------:  | ----------:|
 | IIT2019213      | Vikram Singh    | 77439867   |
 | IIT2019214      | Akshat Agrawal  | 58394345   |
-| IIT2019215      | Ravutla Ruthvik |    $1      |
+| IIT2019215      | Ravutla Ruthvik |  82385316  |
 
 Group No-"10"
 
