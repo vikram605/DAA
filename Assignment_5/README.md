@@ -12,22 +12,22 @@ git clone https://github.com/vikram605/DAA
 Project Initialize 
 ```
 cd DAA
-#create assignment-1 folder
-mkdir assignment_01
+#create assignment-5 folder
+mkdir assignment_05
 
-#go to assignment-1
-cd assignment_01
+#go to assignment-5
+cd assignment_05
 
 #Create file
 touch readme.md
-touch DAA-ASSIGN-02.cpp
+touch DAA-ASSIGN-05.cpp
 .
 .
 ```
 ---
 compile the code
 ```
-g++ DAA-ASSIGN-02.cpp -o fname
+g++ DAA-ASSIGN-05.cpp -o fname
 ```
 Run the code
 ```
