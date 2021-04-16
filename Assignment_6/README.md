@@ -30,7 +30,15 @@ Run the code
 ```
  ./fname
 ```
-
+**Input**
+```
+Enter the length of the stock:
+5
+```
+**Output**
+```
+Maximum possibe profit is 30.
+```
 **Test case**
 
 Find Max profit
