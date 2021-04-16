@@ -41,7 +41,6 @@ Maximum possibe profit is 30.
 ```
 **Test case**
 
-Find Max profit
 ```
 Test Case-1
 Enter the length of the stock:
