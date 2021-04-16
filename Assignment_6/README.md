@@ -1,5 +1,5 @@
 # Problem statment
-Optimal Stock Cutting problem
+Optimal Stock Cutting problem:
 The problem statement for the stock cutting problem is that given a stock of length n inches 
 and an array of prices that contains prices of all pieces of size smaller than n. We have to 
 determine the maximum value obtainable by cutting up the stock and selling the pieces. 
