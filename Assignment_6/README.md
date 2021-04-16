@@ -1,5 +1,5 @@
 # Problem statment
-optimal stock cutting problem
+Optimal Stock Cutting problem
 
 # how to use code
 first it will randomly generate array of size 4x4(it can be changed by changing ROW andCOL in code part) then
@@ -32,107 +32,66 @@ Run the code
 ```
  ./fname
 ```
-Output
-```
-Enter the number of elements in the array:
-5
-Below is the randomly generated array of length 5:
-6 2 7 5 4 
-The Average of the elements present in the array is: 4.8
-```
----
 
 **Test case**
 
 Find Element
 ```
 Test Case-1
-Input:
-63
-Output:
-Below is the randomly generated 4X4 matrix:-
-6 16 26 35 
-41 45 49 51 
-58 61 63 71 
-75 83 85 89 
-Element found at index {2,2}
+Enter the length of the stock:
+5
+Below is the different lengths of stock of length=5:
+1 2 3 4 5 
+Below is the randomly generated prices of different length of stock:
+6 5 0 7 3 
+Maximum possibe profit is 30.
 #--------------------------#
 Test Case-2
 Input:
-4
-Output:
-5 14 20 24 
-27 28 31 33 
-35 44 51 53 
-63 67 73 74
-
-Not found
-```
+Enter the length of the stock:
+6
+Below is the different lengths of stock of length=6:
+1 2 3 4 5 6
+Below is the randomly generated prices of different length of stock:
+0 6 8 1 9 0
+Maximum possibe profit is 18.
 
 ---
 
-### Theory
-1. Divide the problem into a number of
-subproblems that are smaller instances
-of the same problem.
-2. Conquer the subproblems by solving
-them recursively. If they are small
-enough, solve the subproblems as base
-cases.
-3. Combine
-the solutions to the
-subproblems into the solution for the
-original problem.
----
+Theory:
+In this report we have used overall 3
+algorithms to solve the Stock cutting problem.
 
-### Analysis
+First, we used the simple recursive algorithm
+to solve the problem. This algorithm, though
+fairly easy to understand and code, it’s time
+complexity was exponential which was way
+too much.
 
-**Time Complexity**
+Second, we used the memoization technique
+which was merely an extension of the
+recursive algorithm. In this method all the
+redundant calculations are avoided.
+Thus the time complexity reduces drastically
+to O(n2). Extra auxiliary space required
+increases from O(n) to O(n2).
 
-Following is recurrence for time complexity
-T(n) = 3T(n/2) + O(1)
-The time complexity for such an recurrence
-relation can we found out using the
-###### Masters Algorithm:
-We compare the given recurrence relation
-with T(n) = aT(n/b) + θ (n k log p n).
+Third, we used dynamic programming. In this
+method, no recursion is involved. Only two
+nested for loops and a 2-D matrix are used.
+Thus the time complexity involved is O(n2).
+Extra auxiliary space required is O(n
+2). No extra stack memory is required, which was the
+case in the memoization technique.
 
+Thus, we conclude that the algorithm
+involving dynamic programming is the best
+for solving the stock cutting problem as its
+time complexity is way better than that of the
+recursive method and its space complexity is
+slightly better than that of the memoization
+technique.
 
-Then, we have-
-a = 3
-b = 2
-k = 0
-p = 0
-Now, a = 3 and b k = 2 0 = 1.
-Clearly, a > b k .
-So, we follow case-01 which is If a > b k , then
-T(n) = O(n logb(a) )
-So, we have-
-T(n) = O((n logb(a) )
-T(n) = O (n log2(3) )
-T(n) = O (n 1.58 )
-The solution of recurrence is O(n 1.58 ) using
-Master Method.
-But the actual implementation calls for one
-submatrix of size n x n/2 or n/2 x n, and
-another submatrix of size n/2 x n/2.
-Time Complexity : O(n 1.58 )
-
-
-
-**Space Complexity**
-
-Since we input a 2-D matrix of size NXN, it
-will require O(n 2 ) space.
-Also as the number of variables used in every
-function call are fixed, if we try to calculate
-the total number of function calls made (using
-the method used for calculating time
-complexity), we get O(n 1.58 ) space
-complexity.
-Thus the overall space complexity of the
-algorithm is = O(n 1.58 ) + O(n 2 ) ≈ O(n 2 ).
-Space Complexity : O(n 2 )
 
 ---
 
@@ -145,10 +104,3 @@ Cormen . . . [et al.]. - 3rd edition.
 Ullman
 [3] Algorithm Design (Pearson) by J
 Kleinberg, and E Tard
-[4]https://www.geeksforgeeks.org/auxiliary-sp
-ace-recursive-functions/#:~:text=For%20exa
-mple%20if%20we%20need,space%20require
-d%20by%20a%20program
-[5]https://www.geeksforgeeks.org/divide-and-
-conquer-algorithm-introduction/
-
