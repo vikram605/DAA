@@ -1,7 +1,5 @@
 # Problem statment
-
-Given a sorted Matrix row wise and column wise.Find if the given element is present or not if yes then print
-the its index
+optimal stock cutting problem
 
 # how to use code
 first it will randomly generate array of size 4x4(it can be changed by changing ROW andCOL in code part) then
@@ -13,11 +11,11 @@ git clone https://github.com/vikram605/DAA
 Project Initialize 
 ```
 cd DAA
-#create assignment-1 folder
-mkdir assignment_01
+#create assignment-6 folder
+mkdir assignment_06
 
-#go to assignment-1
-cd assignment_01
+#go to assignment-6
+cd assignment_06
 
 #Create file
 touch readme.md
