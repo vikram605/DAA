@@ -1,3 +1,6 @@
+//In this code, only implementation of best/most efficient method is implemented which is using dynamic programming. 
+//Pseudo codes of other methods are written in the report. 
+
 #include <bits/stdc++.h>
 using namespace std;
 
