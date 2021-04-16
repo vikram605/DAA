@@ -1,9 +1,5 @@
 # Problem statment
-Optimal Stock Cutting problem:
-The problem statement for the stock cutting problem is that given a stock of length n inches 
-and an array of prices that contains prices of all pieces of size smaller than n. We have to 
-determine the maximum value obtainable by cutting up the stock and selling the pieces. 
-
+Optimal Stock Cutting problem
 
 # how to use code
 first it will randomly generate array of size 4x4(it can be changed by changing ROW andCOL in code part) then
@@ -63,7 +59,7 @@ Maximum possibe profit is 18.
 ```
 
 
-**Theory**
+**Theory and Complexity Analysis**
 ```
 In this report we have used overall 3
 algorithms to solve the Stock cutting problem.
