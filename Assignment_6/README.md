@@ -19,7 +19,7 @@ cd assignment_06
 
 #Create file
 touch readme.md
-touch DAA-ASSIGN.cpp
+touch DAA_ASSIGN_06.cpp
 .
 .
 ```
