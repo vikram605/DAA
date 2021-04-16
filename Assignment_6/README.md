@@ -35,7 +35,7 @@ Run the code
 
 **Test case**
 
-Find Element
+Find Max profit
 ```
 Test Case-1
 Enter the length of the stock:
@@ -58,7 +58,7 @@ Maximum possibe profit is 18.
 
 ---
 
-Theory:
+#Theory:
 In this report we have used overall 3
 algorithms to solve the Stock cutting problem.
 
