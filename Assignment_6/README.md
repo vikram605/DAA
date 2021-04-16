@@ -1,4 +1,4 @@
-# Problem statment
+# Problem statement
 Optimal Stock Cutting problem
 
 # how to use code
