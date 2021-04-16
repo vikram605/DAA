@@ -99,10 +99,10 @@ slightly better than that of the memoization
 technique.
 
 
----
+```
 
-### References
-
+**References**
+```
 [1] Introduction to Algorithms / Thomas H.
 Cormen . . . [et al.]. - 3rd edition.
 [2] The Design and Analysis of Algorithms
