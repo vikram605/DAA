@@ -56,12 +56,14 @@ Below is the randomly generated prices of different length of stock:
 0 6 8 1 9 0
 Maximum possibe profit is 18.
 
----
+```
 
-# Theory:
+
+**Theory**
+```
 In this report we have used overall 3
 algorithms to solve the Stock cutting problem.
----
+
 First, we used the simple recursive algorithm
 to solve the problem. This algorithm, though
 fairly easy to understand and code, it’s time
